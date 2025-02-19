@@ -124,7 +124,7 @@ wget https://github.com/huggingface/diffusers/blob/main/examples/controlnet/trai
 2. To start training, run:
 ```bash
 # Run the training script
-./train.sh
+./finetune_controlNet_recoloring.sh
 ```
 
 Note:
