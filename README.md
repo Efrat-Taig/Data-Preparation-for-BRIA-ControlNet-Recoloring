@@ -111,3 +111,22 @@ data/
     └── dog_colors.txt       # Color prompts
 ```
 
+
+## Training
+
+The training process is based on the Hugging Face Diffusers ControlNet training script. You'll need to:
+
+1. Download the base training script:
+```bash
+wget https://github.com/huggingface/diffusers/blob/main/examples/controlnet/train_controlnet_sdxl.py
+```
+
+2. To start training, run:
+```bash
+# Run the training script
+./train.sh
+```
+
+Note:
+⬆️ The training script is based on [train_controlnet_sdxl.py](https://github.com/huggingface/diffusers/blob/main/examples/controlnet/train_controlnet_sdxl.py). 
+⬆️ Make sure to fill in the required parameters marked with XX in the script before running.
