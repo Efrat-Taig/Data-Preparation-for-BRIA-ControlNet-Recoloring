@@ -18,12 +18,6 @@ data/
 └── captions/    # Color prompt files
 ```
 
-## Requirements
-
-```bash
-pip install numpy opencv-python pillow scikit-learn
-```
-
 ## How It Works
 
 1. **Color Extraction**:
@@ -92,7 +86,7 @@ The generated data follows the format expected by BRIA-2.3-ControlNet-Recoloring
 Adjust extraction parameters in the script:
 ```python
 # Color extraction settings
-n_colors = 8                  # Number of colors to extract
+n_colors = 5                  # Number of colors to extract
 min_cluster_size = 0.005      # Minimum cluster size (as fraction)
 ```
 
@@ -112,7 +106,7 @@ data/
 ```
 
 
-## Training
+# Training
 
 The training process is based on the Hugging Face Diffusers ControlNet training script. You'll need to:
 
